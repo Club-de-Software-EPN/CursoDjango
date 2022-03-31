@@ -1,5 +1,8 @@
 # Guía Inicio Previo al Curso de Django
 
+**Advertencia: El contenido mostrado aquí no es de nuestra autoría, no pretendemos lucrarnos de recursos gratuitos, el material aquí expuesto no es parte
+del contenido del curso al que te inscribiste, solo es una guía en caso que te sientas muy perdido en algún tema**
+
 Si te encuentras tomando este curso, estoy seguro que:
 - Conoces al menos lo más básico de Python. *(de no ser el caso te recomendaría revisar este tutorial: https://www.youtube.com/watch?v=-AWh88u-UhU)*
 - Conoces como funciona la web y quieres aplicarlo con Python.
@@ -24,6 +27,11 @@ https://www.youtube.com/watch?v=YlTT8cRKVuU
 ## 2. Frontend muy básico
 A día de hoy el desarrollo Front End es una área muy extensa que tiene muchas consideraciones como lo son forma de desarrollo y las tecnologías con las que 
 podemos crear FrontEnd (la parte que vemos en el navegador), para este curso solo necesitamos lo más básico que es HTML, CSS y JS.
+
+https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
+
+https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/CSS_basics
+
 https://www.youtube.com/watch?v=ivyIqmczxHU
 
 Eventualmente usaremos bootstrap por su rapidez y facilidad de uso. 
