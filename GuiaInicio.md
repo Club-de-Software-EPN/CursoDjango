@@ -15,6 +15,7 @@ Te voy a presentar las siguientes secciones:
 4. ¿Qué es BDD?
 5. Servicios Web 
 6. Docker
+
 Sientete en la libertad de saltarte cualquier sección o cerrar esta guía si ya dominas estas tecnologías.
 
 ## 1. La web en general
