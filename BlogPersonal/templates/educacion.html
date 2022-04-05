@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="{% static 'css/index.css' %}" type="text/css" rel="stylesheet">
 </head>
 <body>
-   <nav>
+   <nav class="navegacion">
         <a href="{% url 'index' %}">Inicio</a>
         <a href="{% url 'historia' %}">Mi historia</a>
         <a href="{% url 'educacion' %}">Educación</a>
@@ -18,7 +19,7 @@
         <p>
             En la escuela estudié en ...
         </p>
-        <img src="{% static 'imagenes/colegio.jpg' %}" alt="imagenColegio">
+        <img class="imagen" src="{% static 'imagenes/colegio.jpg' %}" alt="imagenColegio">
     </div>
 </body>
 </html>
