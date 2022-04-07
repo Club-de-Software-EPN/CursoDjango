@@ -1,7 +1,13 @@
 from django.shortcuts import render
+from .models import Publicaciones
 
-# Create your views here.
+def publicaciones(request):
+    pub = Publicaciones()
+    listaPublicaciones = pub.getTodasPublicaciones()
+    context = {'publicaciones': listaPublicaciones}
+    return render(request,'publicaciones.html', context)
 
+# Renderizar vistas estáticas
 def index(request):
     return render(request,'index.html')
 

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Publicaciones</title>
+    <link href="{% static 'css/index.css' %}" type="text/css" rel="stylesheet">
+</head>
+<body>
+   <nav>
+       <a href="{% url 'index' %}">Inicio</a>
+        <a href="{% url 'historia' %}">Mi historia</a>
+        <a href="{% url 'educacion' %}">Educación</a>
+        <a href="{% url 'aficiones' %}">Aficiones</a>
+        <a href="{% url 'publicaciones' %}">Publicaciones</a>
+    </nav>
+    <h1>Publicaciones</h1>
+    <br>
+    <p>Lista publicaciones</p>
+    <br>
+    {% for publicacion in publicaciones %}
+        <div>
+            <p>Titulo: {{ publicacion.tituloPublicacion }}</p>
+            <p>Descripción: {{ publicacion.descripcionPublicacion }}</p>
+            <p>Fecha: {{ publicacion.fecha }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>
