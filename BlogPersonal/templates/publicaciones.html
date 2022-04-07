@@ -25,5 +25,10 @@
             <p>Fecha: {{ publicacion.fecha }}</p>
         </div>
     {% endfor %}
+    <br>
+    <a href="{% url 'crearPublicacion' %}">
+        <button class="button">Nueva Publicacion</button>
+    </a>
+
 </body>
 </html>

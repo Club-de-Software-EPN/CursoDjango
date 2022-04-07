@@ -10,3 +10,6 @@ class Publicaciones(models.Model):
 
     def getTodasPublicaciones(self):
         return list(Publicaciones.objects.all())
+
+    def crearPublicacion(self, titulo, descripcion):
+        Publicaciones.objects.create(tituloPublicacion=titulo, descripcionPublicacion=descripcion)

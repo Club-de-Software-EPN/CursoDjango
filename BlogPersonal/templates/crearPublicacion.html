@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Publicación</title>
+</head>
+<body>
+   <nav>
+       <a href="{% url 'index' %}">Inicio</a>
+        <a href="{% url 'historia' %}">Mi historia</a>
+        <a href="{% url 'educacion' %}">Educación</a>
+        <a href="{% url 'aficiones' %}">Aficiones</a>
+        <a href="{% url 'publicaciones' %}">Publicaciones</a>
+    </nav>
+<h1>Crea tu publicación</h1>
+
+<form method="post">
+    {% csrf_token %}
+  <label for="titulo">Título:</label><br>
+  <input type="text" id="titulo" name="titulo"><br>
+    <br>
+  <label for="descripcion">Descipción:</label><br>
+  <input type="text" id="descripcion" name="descripcion">
+    <br>
+    <br>
+    <button type="submit">Guardar</button>
+</form>
+
+</body>
+</html>
