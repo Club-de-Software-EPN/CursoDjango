@@ -1,18 +1,12 @@
 import os
 from pathlib import Path
 
-#from settings.local import *
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-gga%a7min21be0t@88@=1zjenkd*x^3y$47$8lt8htj!d8cm0rwkf'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
 
 # Application definition
 INSTALLED_APPS = [
@@ -59,14 +53,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'ProyectoGuia.wsgi.application'
-
-# Local Database
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
