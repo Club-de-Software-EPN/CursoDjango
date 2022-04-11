@@ -17,8 +17,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Mis apps
-
-    # Download apps
+    'ProyectoGuia.Apps.facultad',
+    'ProyectoGuia.Apps.persona',
+    # Download apps bootstratp y editor
 
 ]
 

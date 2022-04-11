@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% load static %}
+    <script src="{% static 'js/app.js' %}"></script>
     <meta charset="UTF-8">
     <title>Crear Publicación</title>
 </head>
@@ -23,7 +25,7 @@
   <input type="text" id="descripcion" name="descripcion">
     <br>
     <br>
-    <button type="submit">Guardar</button>
+    <button type="submit" onclick="notificarRegistro()">Guardar</button>
 </form>
 
 </body>
