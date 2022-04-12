@@ -28,13 +28,14 @@ class Estudiante(models.Model):
     # Carta motivación
     cartaMotivacion = RichTextField()
     # Relación muchos a muchos
-    hadilidad = models.ManyToManyField(Habilidades)
+    habilidad = models.ManyToManyField(Habilidades)
 
     class Meta:
         #nombre singular
         verbose_name='Estudiante'
         #nombre plural
         verbose_name_plural = 'Estudiantes matriculados'
+        ordering = ['apellido','primerNombre']
 
     def __str__(self):
         return self.primerNombre + ' '+ self.apellido + ' - Facultad: ' +self.facultad.nombreCorto

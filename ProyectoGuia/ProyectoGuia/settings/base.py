@@ -19,8 +19,10 @@ INSTALLED_APPS = [
     # Mis apps
     'ProyectoGuia.Apps.facultad',
     'ProyectoGuia.Apps.persona',
+    'ProyectoGuia.Apps.home',
     # Download apps bootstratp y editor
-    'ckeditor'
+    'ckeditor',
+    'bootstrap5',
 ]
 
 
@@ -40,7 +42,7 @@ ROOT_URLCONF = 'ProyectoGuia.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR/'templates'],
+        'DIRS': [BASE_DIR.parent / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
