@@ -20,7 +20,7 @@ INSTALLED_APPS = [
     'ProyectoGuia.Apps.facultad',
     'ProyectoGuia.Apps.persona',
     # Download apps bootstratp y editor
-
+    'ckeditor'
 ]
 
 
