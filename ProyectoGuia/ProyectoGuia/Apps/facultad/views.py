@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from .models import
+from .models import Facultad
 # Create your views here.
-# Vistas basadas en clase
 
-# 5.
+def facultades(request):
+    return render(request,'facultad/facultades.html')

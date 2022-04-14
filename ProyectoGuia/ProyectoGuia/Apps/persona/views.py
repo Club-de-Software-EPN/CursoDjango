@@ -4,6 +4,9 @@ from .models import Estudiante
 
 # Create your views here.
 
+def estudiantes(request):
+    return render(request, 'persona/estudiantes.html')
+
 #   Lists View
 
 # 1. Lista de todos los estudiantes
@@ -24,8 +27,12 @@ class ListarEstudiantesPorFacultad(ListView):
     # Tomar nombre corto de facultad desde la url
     def get_queryset(self):
         # Recoger el parámetro GET desde la url
-        facultad = self.kwargs['facultad']
-        print(facultad)
+        facultadBusqueda = self.kwargs['facultad']
+        # Select Estudiante -> Atributo Facultad -> Del atributo facultad sacar el nombre corto
+        # -> Nombre corto en url == Nombre corto facultad estudiantes
+        # Usaremos el operador __
+        listaResultados = Estudiante.objects.filter(facultad__nombreCorto=facultadBusqueda)
+        return listaResultados
 
 # 3 Listar por búsqueda de nombre
 
