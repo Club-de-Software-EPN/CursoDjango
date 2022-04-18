@@ -8,9 +8,6 @@
 | 4 | Configuración Modular | 08-04 | https://us02web.zoom.us/rec/share/o8PlTSNuN5uAHvdUzBBngRod-MTymiulKu-gv5R2qCAVIHrVQGIJ7rJVZN730mxM.zJ5u2-atGs9qqB4z?startTime=1649427360000 (Código de acceso: *P.Q2KSC) |
 | 5 | Django | 08-04 | https://us02web.zoom.us/rec/share/6ebrWCb-J9b505KkFyeTR8fPETxWX-fDFdDUkT-W4-UAOCdrkqveJnFQH_rNmvt2.0Y_cD6noD5u9VG-N?startTime=1649686572000
 Código de acceso: XeBb#F1w |
-| 6 | Django | 11-04 | https://us02web.zoom.us/rec/share/6ebrWCb-J9b505KkFyeTR8fPETxWX-fDFdDUkT-W4-UAOCdrkqveJnFQH_rNmvt2.0Y_cD6noD5u9VG-N?startTime=1649686572000
-Código de acceso: XeBb#F1w |
-| 7 | Django | 12-04 | https://us02web.zoom.us/rec/share/Q12-d9yRguEMnuCAdQoVvvsws5_3eQf54a2-NIUfRIhVN7w5IUs0HEFqFfa5TXHb.4DLQ8_hZdOgRqZBm?startTime=1649772945000
-Código de acceso: GhxPu4x. |
-| 8 | Django | 14-04 | https://us02web.zoom.us/rec/share/xxccHdFau5EcZs8hG2LdeyXswNEauALA9-dyEfA4E7y-kycczRjCle67dmw9t2UV.TPalND32ZC7fH6ap?startTime=1649945724000
-Código de acceso: iy7!M?Uk |
+| 6 | Django | 11-04 | https://us02web.zoom.us/rec/share/6ebrWCb-J9b505KkFyeTR8fPETxWX-fDFdDUkT-W4-UAOCdrkqveJnFQH_rNmvt2.0Y_cD6noD5u9VG-N?startTime=1649686572000 (Código de acceso: XeBb#F1w) |
+| 7 | Django | 12-04 | https://us02web.zoom.us/rec/share/Q12-d9yRguEMnuCAdQoVvvsws5_3eQf54a2-NIUfRIhVN7w5IUs0HEFqFfa5TXHb.4DLQ8_hZdOgRqZBm?startTime=1649772945000 (Código de acceso: GhxPu4x.) |
+| 8 | Django | 14-04 | https://us02web.zoom.us/rec/share/xxccHdFau5EcZs8hG2LdeyXswNEauALA9-dyEfA4E7y-kycczRjCle67dmw9t2UV.TPalND32ZC7fH6ap?startTime=1649945724000 (Código de acceso: iy7!M?Uk) |
