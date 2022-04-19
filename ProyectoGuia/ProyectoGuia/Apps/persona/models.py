@@ -22,6 +22,7 @@ class Estudiante(models.Model):
     )
     primerNombre = models.CharField('Nombre', max_length=50)
     apellido = models.CharField('Apellidos', max_length=50)
+    nombreCompleto = models.CharField('Nombre Completo', max_length=100, blank=True)
     tipo = models.CharField('Tipo', max_length=1, choices=tiposEstudiantes)
     facultad = models.ForeignKey(Facultad, on_delete=models.CASCADE)
     # imagen

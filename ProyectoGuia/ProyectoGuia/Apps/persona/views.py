@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from django.views.generic import (ListView, DetailView)
+from django.views.generic import (ListView, TemplateView, DetailView, CreateView)
 from .models import Estudiante
-
+from django.urls import reverse_lazy
 # Create your views here.
 
 def estudiantes(request):
@@ -73,4 +73,26 @@ class EstudiantesDetailView(DetailView):
         context = super(EstudiantesDetailView, self).get_context_data(**kwargs)
         context['titulo'] = 'Mejor estudiante'
         return context
+
+# Crear
+class SuccesView(TemplateView):
+    template_name = 'persona/success.html'
+
+class EstudianteCreateView(CreateView):
+    model = Estudiante
+    template_name = 'persona/crearEstudiante.html'
+    #fields = ('__all__')
+    fields = ['primerNombre','apellido','tipo','facultad', 'cartaMotivacion','habilidad']
+    success_url = reverse_lazy('persona_app:success')
+
+    def form_valid(self, form):
+        # trabajo
+        #hacer validaciones, crear parametros sin que se pase desde el html
+        # validaciones
+        estudiante = form.save()
+        estudiante.nombreCompleto = estudiante.primerNombre + ' ' + estudiante.apellido
+        estudiante.save()
+        return super(EstudianteCreateView, self).form_valid(form)
+
+
 
