@@ -6,3 +6,6 @@
 | 2 | Servir contenido estatico y navegación | 05-04 |  https://us02web.zoom.us/rec/share/50jYmXO19v5YY2qoyTuCnUCijuJpqRIPqftOigmqrDprrUwH4v7k2b0IAvgDrv4N.XkltdkUdRb1V0leT?startTime=1649168096000 (Código de acceso: t&ix9QyL) |
 | 3 | Modelos y bases de datos | 07-04 | https://us02web.zoom.us/rec/share/ze_NHgNjoHgIEaMZJdvwEWHKga1JmY3NvETLfDUlBS1sZsjIMKr9gt9bvAG_9N21.LUlB66jrkpn9XOhd?startTime=1649340833000 (Código de acceso: f42%B4=4) |
 | 4 | Configuración Modular | 08-04 | https://us02web.zoom.us/rec/share/o8PlTSNuN5uAHvdUzBBngRod-MTymiulKu-gv5R2qCAVIHrVQGIJ7rJVZN730mxM.zJ5u2-atGs9qqB4z?startTime=1649427360000 (Código de acceso: *P.Q2KSC) |
+| 5 | Django | 11-04 | https://us02web.zoom.us/rec/share/6ebrWCb-J9b505KkFyeTR8fPETxWX-fDFdDUkT-W4-UAOCdrkqveJnFQH_rNmvt2.0Y_cD6noD5u9VG-N?startTime=1649686572000 (Código de acceso: XeBb#F1w) |
+| 6 | Django | 12-04 | https://us02web.zoom.us/rec/share/Q12-d9yRguEMnuCAdQoVvvsws5_3eQf54a2-NIUfRIhVN7w5IUs0HEFqFfa5TXHb.4DLQ8_hZdOgRqZBm?startTime=1649772945000 (Código de acceso: GhxPu4x.) |
+| 7 | Django | 14-04 | https://us02web.zoom.us/rec/share/xxccHdFau5EcZs8hG2LdeyXswNEauALA9-dyEfA4E7y-kycczRjCle67dmw9t2UV.TPalND32ZC7fH6ap?startTime=1649945724000 (Código de acceso: iy7!M?Uk) |
