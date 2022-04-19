@@ -1,11 +1,14 @@
 from django.shortcuts import render
-from django.views.generic import (ListView)
+from django.views.generic import (ListView, DetailView)
 from .models import Estudiante
 
 # Create your views here.
 
 def estudiantes(request):
     return render(request, 'persona/estudiantes.html')
+
+def estudiantesFacultad(request):
+    return render(request, 'persona/listaFacultadesEstudiantes.html')
 
 #   Lists View
 
@@ -34,9 +37,40 @@ class ListarEstudiantesPorFacultad(ListView):
         listaResultados = Estudiante.objects.filter(facultad__nombreCorto=facultadBusqueda)
         return listaResultados
 
-# 3 Listar por búsqueda de nombre
+# 3 Listar por búsqueda de nombre (pasado por get)
+class ListarEstudiantesBusqueda(ListView):
+    template_name = 'persona/listaEstudiantesBusqueda.html'
+    model = Estudiante
+    context_object_name = 'estudiantes'
+
+    def get_queryset(self):
+        nombre = self.request.GET.get('nombre', '')
+        #print('Nombre en back', nombre)
+        listaResultados = Estudiante.objects.filter(primerNombre=nombre)
+
+        return listaResultados
 
 # 4 Listar Habilidades del estudiantes (m2m)
+class ListarEstudiantesHabilidades(ListView):
+    template_name = 'persona/listaEstudiantesHabilidad.html'
+    model = Estudiante
+    context_object_name = 'habilidades'
+
+    def get_queryset(self):
+        estudiante = Estudiante.objects.get(id=2)
+        return estudiante.habilidad.all()
+
 
 #   CRUD views
+
+# Detailed View
+
+class EstudiantesDetailView(DetailView):
+    model = Estudiante
+    template_name = 'persona/detailEstudiante.html'
+
+    def get_context_data(self, **kwargs):
+        context = super(EstudiantesDetailView, self).get_context_data(**kwargs)
+        context['titulo'] = 'Mejor estudiante'
+        return context
 

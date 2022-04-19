@@ -8,6 +8,7 @@ admin.site.register(Habilidades)
 class EstudianteAdmin(admin.ModelAdmin):
     # Columnas a mostrarse en formato de tabla
     list_display = (
+        'id',
         'apellido',
         'primerNombre',
         'tipo',
