@@ -9,3 +9,5 @@
 | 5 | Django | 11-04 | https://us02web.zoom.us/rec/share/6ebrWCb-J9b505KkFyeTR8fPETxWX-fDFdDUkT-W4-UAOCdrkqveJnFQH_rNmvt2.0Y_cD6noD5u9VG-N?startTime=1649686572000 (Código de acceso: XeBb#F1w) |
 | 6 | Django | 12-04 | https://us02web.zoom.us/rec/share/Q12-d9yRguEMnuCAdQoVvvsws5_3eQf54a2-NIUfRIhVN7w5IUs0HEFqFfa5TXHb.4DLQ8_hZdOgRqZBm?startTime=1649772945000 (Código de acceso: GhxPu4x.) |
 | 7 | Django | 14-04 | https://us02web.zoom.us/rec/share/xxccHdFau5EcZs8hG2LdeyXswNEauALA9-dyEfA4E7y-kycczRjCle67dmw9t2UV.TPalND32ZC7fH6ap?startTime=1649945724000 (Código de acceso: iy7!M?Uk) |
+| 8 | Django | 19-04 | https://us02web.zoom.us/rec/share/QOFE1pH5hmBA2JAqtDnEW46LKRKlFabKBLJ2G4d80PwcsTKOP0CwOz1kKR4Q6nTy.pwwg15HacL54gJSs?startTime=1650378609000
+Código de acceso: 4@&^HTz@ |
