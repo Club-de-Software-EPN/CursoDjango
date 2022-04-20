@@ -13,8 +13,11 @@ urlpatterns = [
     path('detailEstudiante/<pk>', views.EstudiantesDetailView.as_view(),),
     path('crearEstudiante', views.EstudianteCreateView.as_view()),
     path('success/', views.SuccesView.as_view(), name='success'),
+    #update
+    path('delete/<pk>/', views.EstudianteDeleteView.as_view(), name='delete'),
     #Facultad
     path('facultad/<str:facultad>',views.ListarEstudiantesPorFacultad.as_view(), name='listaEstudiantesFacultad'),
+
 
     ]
 

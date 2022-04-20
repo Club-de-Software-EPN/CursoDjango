@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from django.views.generic import (ListView, TemplateView, DetailView, CreateView)
+from django.views.generic import (ListView, TemplateView, DetailView, CreateView,
+                                  UpdateView, DeleteView)
 from .models import Estudiante
 from django.urls import reverse_lazy
 # Create your views here.
@@ -70,8 +71,10 @@ class EstudiantesDetailView(DetailView):
     template_name = 'persona/detailEstudiante.html'
 
     def get_context_data(self, **kwargs):
-        context = super(EstudiantesDetailView, self).get_context_data(**kwargs)
+        # Permite agregar  hacer validaciones previo a mostrar el detalle en el navegador
+        context = super(EstudiantesDetailView, self).get_context_data(**kwargs)   # todos los atributos
         context['titulo'] = 'Mejor estudiante'
+        context['otroDato'] = 'otro dato'
         return context
 
 # Crear
@@ -94,6 +97,10 @@ class EstudianteCreateView(CreateView):
         estudiante.save()
         return super(EstudianteCreateView, self).form_valid(form)
 
+## Update
 
-
-
+## Delete View
+class EstudianteDeleteView(DeleteView):
+    model = Estudiante
+    template_name = 'persona/delete.html'
+    success_url = reverse_lazy('persona_app:success')
