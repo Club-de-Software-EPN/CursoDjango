@@ -10,8 +10,6 @@
 | 6 | Django | 12-04 | https://us02web.zoom.us/rec/share/Q12-d9yRguEMnuCAdQoVvvsws5_3eQf54a2-NIUfRIhVN7w5IUs0HEFqFfa5TXHb.4DLQ8_hZdOgRqZBm?startTime=1649772945000 (Código de acceso: GhxPu4x.) |
 | 7 | Django | 14-04 | https://us02web.zoom.us/rec/share/xxccHdFau5EcZs8hG2LdeyXswNEauALA9-dyEfA4E7y-kycczRjCle67dmw9t2UV.TPalND32ZC7fH6ap?startTime=1649945724000 (Código de acceso: iy7!M?Uk) |
 | 8 | Django | 19-04 | https://us02web.zoom.us/rec/share/QOFE1pH5hmBA2JAqtDnEW46LKRKlFabKBLJ2G4d80PwcsTKOP0CwOz1kKR4Q6nTy.pwwg15HacL54gJSs?startTime=1650378609000 Código de acceso: 4@&^HTz@ |
-| 9 | Django | 20-04 | https://us02web.zoom.us/rec/share/Es0q4WEEO8IMH5ivTCGHwCgZWpnmKyuRrUemo6sXEQBOAjCFRv4wzjXbZW3rIJBl.Wt7Cdea1oY6j8YSg?startTime=1650464279000
-Código de acceso: 38*+36FQ |
-| 10 | Django | 21-04 | https://us02web.zoom.us/rec/share/StsnmK2G6PaZmMY_xeCqQU9hod4BjsN2V07ikNk4QYRlfBvTAEa2Hq9gcJrk47l1.rw63VJ6sk7KSs5F_?startTime=1650550505000
-Código de acceso: &^1ccQ!& |
+| 9 | Django | 20-04 | https://us02web.zoom.us/rec/share/Es0q4WEEO8IMH5ivTCGHwCgZWpnmKyuRrUemo6sXEQBOAjCFRv4wzjXbZW3rIJBl.Wt7Cdea1oY6j8YSg?startTime=1650464279000 Código de acceso: 38*+36FQ |
+| 10 | Django | 21-04 | https://us02web.zoom.us/rec/share/StsnmK2G6PaZmMY_xeCqQU9hod4BjsN2V07ikNk4QYRlfBvTAEa2Hq9gcJrk47l1.rw63VJ6sk7KSs5F_?startTime=1650550505000 Código de acceso: &^1ccQ!& |
 
